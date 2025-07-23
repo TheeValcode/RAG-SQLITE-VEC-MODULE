@@ -1,0 +1,26 @@
+{
+  "name": "rag-module",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node --loader ts-node/esm src/test-embed.ts",
+    "test-db": "NODE_OPTIONS='--loader ts-node/esm' node src/test-db.ts",
+    "test-rag": "NODE_OPTIONS='--loader ts-node/esm' node src/test-rag.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "RAG module with node-llama-cpp embeddings",
+  "dependencies": {
+    "node-llama-cpp": "^3.10.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
