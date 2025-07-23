@@ -144,4 +144,3 @@ Contributions are welcome! Please open an issue or submit a pull request.
 - [node-llama-cpp](https://github.com/withcatai/node-llama-cpp) - For efficient LLM inference
 - [SQLite](https://sqlite.org/) - For embedded database storage
 - [sqlite-vec](https://github.com/asg017/sqlite-vec) - For vector similarity search
-# RAG-SQLITE-VEC-MODULE
