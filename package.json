@@ -12,7 +12,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "UNLICENSED",
   "description": "RAG module with node-llama-cpp embeddings",
   "dependencies": {
     "node-llama-cpp": "^3.10.0",
